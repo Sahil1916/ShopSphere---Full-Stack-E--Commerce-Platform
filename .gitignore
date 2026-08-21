@@ -1,0 +1,22 @@
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Java
+backend/target/
+*.class
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+
+# Logs
+*.log

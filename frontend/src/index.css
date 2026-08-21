@@ -1,0 +1,5 @@
+/* Import the exact original style.css from the project */
+@import './style.css';
+
+/* React router page wrapper */
+.page-wrap { min-height: calc(100vh - 60px); }
