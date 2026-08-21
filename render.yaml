@@ -1,12 +1,10 @@
 services:
   - type: web
     name: shop-with-sahil-api
-    runtime: java
+    runtime: docker
     rootDir: backend
 
-    buildCommand: mvn clean package -DskipTests
-
-    startCommand: java -jar target/online-shopping-cart-1.0.0.jar
+    dockerfilePath: ./Dockerfile
 
     envVars:
       - key: DB_URL
