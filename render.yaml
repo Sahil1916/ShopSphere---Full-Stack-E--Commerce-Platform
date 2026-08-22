@@ -3,7 +3,6 @@ services:
     name: shop-with-sahil-api
     runtime: docker
     rootDir: backend
-
     dockerfilePath: ./Dockerfile
 
     envVars:

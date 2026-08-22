@@ -1,22 +1,28 @@
-# IDE / OS
-.idea/
-*.iml
-.vscode/
-.DS_Store
-
-# Java
-backend/target/
+# Java / Maven
+target/
 *.class
 
-# Node
-frontend/node_modules/
-frontend/dist/
-
-# Environment / secrets
+# Environment variables
 .env
 .env.*
 !.env.example
-**/application-local.properties
+
+# Node
+node_modules/
+frontend/dist/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Logs
 *.log
