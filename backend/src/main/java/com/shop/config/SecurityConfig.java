@@ -15,7 +15,7 @@ import java.util.List;
 @Configuration
 public class SecurityConfig {
 
-    @Value("${app.frontend.url:http://localhost:5173}")
+    @Value("${app.frontend.url:https://stupendous-flan-56da5d.netlify.app}")
     private String frontendUrl;
 
     @Bean
