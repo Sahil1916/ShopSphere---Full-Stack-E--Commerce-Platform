@@ -3,17 +3,12 @@
   command = "npm run build"
   publish = "dist"
 
-# IMPORTANT:
-# After creating the Render service, replace YOUR-RENDER-SERVICE below
-# with your real Render hostname. Keeping /api proxied through Netlify
-# lets the browser use a same-origin session cookie.
 [[redirects]]
   from = "/api/*"
-  to = "https://YOUR-RENDER-SERVICE.onrender.com/api/:splat"
+  to = "https://shopsphere-full-stack-e-commerce-platform-w6gl.onrender.com/api/:splat"
   status = 200
   force = true
 
-# React Router fallback
 [[redirects]]
   from = "/*"
   to = "/index.html"
