@@ -24,7 +24,7 @@ public class EmailService {
     @Value("${mail.support:support@shopverse.com}")
     private String support;
 
-    @Value("${app.url:http://localhost:5173}")
+    @Value("${app.url:https://stupendous-flan-56da5d.netlify.app}")
     private String appUrl;
 
     private static final String BRAND = "Shop_With_Sahil";
